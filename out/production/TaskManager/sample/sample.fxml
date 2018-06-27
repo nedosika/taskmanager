@@ -17,7 +17,7 @@
                   <Font name="Century Gothic" size="35.0" />
                </font>
             </Label>
-            <Button fx:id="btnEnter" layoutX="307.0" layoutY="225.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="87.0" style="-fx-background-color: #2e3348;" text="Enter" textFill="WHITE">
+            <Button fx:id="btnEnter" layoutX="307.0" layoutY="225.0" mnemonicParsing="false" onAction="#onEnterAction" prefHeight="36.0" prefWidth="87.0" style="-fx-background-color: #2e3348;" text="Enter" textFill="WHITE">
                <font>
                   <Font name="System Bold" size="18.0" />
                </font>
